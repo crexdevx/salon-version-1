@@ -1,4 +1,4 @@
-import { ArrowRight, Clock, Facebook, Instagram, Play, Scissors, ShieldCheck, SprayCan, Youtube } from "lucide-react";
+import { ArrowRight, Clock, Facebook, Instagram, Scissors, ShieldCheck, SprayCan, Youtube } from "lucide-react";
 
 const heroArt = "/images/hero-gent.png";
 
@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-hero-canvas">
       {/* Artwork — anchored right, sized so the copy column stays clear */}
-      <div className="pointer-events-none absolute right-[8%] top-0 h-[74%] w-[64%] sm:right-[6%] sm:h-[82%] sm:w-[58%] lg:right-0 lg:h-[92%] lg:w-[52%]">
+      <div className="pointer-events-none absolute -top-5 right-[8%] h-[74%] w-[64%] sm:top-0 sm:right-[6%] sm:h-[82%] sm:w-[58%] lg:right-0 lg:h-[92%] lg:w-[52%]">
         <img
           src={heroArt}
           alt="Illustrated portrait of a modern gentleman with a sharp fade haircut and groomed beard"
@@ -63,14 +63,6 @@ export function Hero() {
             >
               Book your style
               <ArrowRight className="h-3 w-3 sm:h-4 sm:w-4" />
-            </a>
-            <a href="#gallery" className="flex min-w-0 items-center gap-2">
-              <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-background shadow-sm sm:h-10 sm:w-10">
-                <Play className="h-3 w-3 fill-primary text-primary sm:h-4 sm:w-4" />
-              </span>
-              <span className="whitespace-nowrap text-[0.5rem] font-bold uppercase tracking-[0.12em] text-foreground sm:text-[0.7rem]">
-                Watch our work
-              </span>
             </a>
           </div>
         </div>
