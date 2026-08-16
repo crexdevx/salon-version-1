@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-hero-canvas">
       {/* Artwork — anchored right, sized so the copy column stays clear */}
-      <div className="pointer-events-none absolute -top-5 right-[8%] h-[74%] w-[64%] sm:top-0 sm:right-[6%] sm:h-[82%] sm:w-[58%] lg:right-0 lg:h-[92%] lg:w-[52%]">
+      <div className="pointer-events-none absolute -top-9 right-[8%] h-[78%] w-[68%] scale-110 sm:top-0 sm:right-[6%] sm:h-[82%] sm:w-[58%] sm:scale-100 lg:right-0 lg:h-[92%] lg:w-[52%]">
         <img
           src={heroArt}
           alt="Illustrated portrait of a modern gentleman with a sharp fade haircut and groomed beard"
